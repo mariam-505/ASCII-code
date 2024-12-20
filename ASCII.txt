@@ -1,0 +1,30 @@
+ASCII: stands for American Standard Code for Information Interchange, it's a foundational character encoding standard developed in the 1960s by the American National Standards Institute (ANSI). Its primary goal was to standardize text representation across computers and digital communication devices.
+
+ASCII assigns unique numerical values (0 to 127) to characters, including:
+Letters: Uppercase (A-Z) and lowercase (a-z)
+Digits: 0-9
+Symbols: Punctuation marks and special characters (!, ?, etc.)
+Control Characters: Non-printable characters like newline (10) and tab (9)
+
+Each character is represented as a 7-bit binary number, enabling efficient storage and transmission. For instance, 'A' is 65 in decimal (1000001 in binary), and 'a' is 97 in decimal (1100001 in binary).
+
+ASCII Categories
+
+Control Characters (0-31 and 127): Non-printable, used for device control (e.g., newline and carriage return).
+
+Printable Characters (32-126): Includes letters, numbers, and symbols (e.g., 32 for space, 33 for !, and 126 for ~).
+
+Extended ASCII
+
+Some systems extend ASCII to 8 bits (0-255), adding support for graphical characters and symbols used in various languages. For example:
+
+Text Representation: The string "Hello!" in ASCII is defined as: 72 (H), 101 (e), 108 (l), 108 (l), 111 (o), and 33 (!).
+
+char ch = 65; // Assigns 'A' to the variable ch.
+
+Data Transmission: ASCII underpins protocols like HTTP and SMTP to encode text data.
+
+ASCII ensures compatibility across systems and devices, forming the basis for advanced encoding systems like Unicode. Despite Unicode’s broader character support, ASCII’s simplicity and efficiency maintain its relevance in modern computing.
+
+In conclusion, ASCII’s role as a universal standard for text representation has solidified its place in computing history. Whether programming or communicating digitally, ASCII operates silently behind the scenes, enabling seamless interaction across platforms and devices.
+
